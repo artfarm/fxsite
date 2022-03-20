@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/packages.css" type="text/css" media="screen, projection" />
+
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <center>
+
+        <header>
+            <nav>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul id="menuList">
+                        <li class="nav__item"><a href="#charts" class="nav__link active-link">charts</a></li>
+                        <li class="nav__item"><a href="#analysis" class="nav__link">analysis</a></li>
+                        <li class="nav__item"><a href="#packages" class="nav__link">packages</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                    </ul>
+                </div>
+                <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+
+                <a href="index.html">
+                    <img src="images/home (1).png" class="homebtn">
+                </a>
+            </nav>
+
+        </header>
+    </center>
+    <main>
+
+        <center>
+            <br><br><br><br><br><br><br><br><br>
+            <div class="intro">
+                <div class="small-container">
+                    <h2 class="title">Featured Products</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/images-15.jpg">
+                            <h4>Selected Benefits</h4>
+                            <p>R340.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/images-19.jpg">
+                            <h4>Full Course</h4>
+                            <p>R640.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/stock-vector-growing-money-tree-vector-illustration-businessman-hand-watering-money-tree-700087525.jpg">
+                            <h4>Premium Package</h4>
+                            <p>R940.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br>
+
+        </center>
+    </main>
+    <center>
+        <footer>
+            <h1>Thank You for visiting us</h1>
+            <p class="footer">This is some terams and conditions text</p>
+        </footer>
+    </center>
+
+    <script>
+        var _menuList = document.getElementById("menuList");
+
+        _menuList.style.maxHeight = "1px";
+
+        function togglemenu() {
+            if (_menuList.style.maxHeight == "1px") {
+                _menuList.style.maxHeight = "200px";
+            } else {
+                _menuList.style.maxHeight = "1px";
+            }
+        }
+    </script>
+</body>
+
+</html>

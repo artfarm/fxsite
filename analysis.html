@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/analysis.css" type="text/css" media="screen, projection" />
+
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <center>
+
+        <header>
+            <nav>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul id="menuList">
+                        <li class="nav__item"><a href="#charts" class="nav__link active-link">charts</a></li>
+                        <li class="nav__item"><a href="#analysis" class="nav__link">analysis</a></li>
+                        <li class="nav__item"><a href="#packages" class="nav__link">packages</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                    </ul>
+                </div>
+                <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+
+                <a href="index.html">
+                    <img src="images/home (1).png" class="homebtn">
+                </a>
+            </nav>
+
+        </header>
+    </center>
+    <main>
+        <center>
+
+            <br><br><br><br><br><br><br><br>
+
+            <div class="content">
+                <h1>Weekly Thoughts</h1>
+                <center>
+                    <div class="cntnt">
+                        <ul class="hoverbox">
+                            <li>
+                                <a href="img/photo01.png"><img src="img/photo01.png" alt="description" /></a>
+                            </li>
+                            <li>
+                                <a href="img/photo02.png"><img src="img/photo02.png" alt="description" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/photo03.png" alt="description" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/photo04.png" alt="description" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/photo05.png" alt="description" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/photo06.png" alt="description" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/photo07.png" alt="description" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/photo08.png" alt="description" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/photo09.png" alt="description" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/photo10.png" alt="description" /></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </center>
+            </div>
+            <br><br><br><br>
+
+        </center>
+    </main>
+    <center>
+        <footer>
+            <h1>Thank You for visiting us</h1>
+            <p class="footer">This is some terams and conditions text</p>
+        </footer>
+    </center>
+    <script>
+        var _menuList = document.getElementById("menuList");
+
+        _menuList.style.maxHeight = "1px";
+
+        function togglemenu() {
+            if (_menuList.style.maxHeight == "1px") {
+                _menuList.style.maxHeight = "200px";
+            } else {
+                _menuList.style.maxHeight = "1px";
+            }
+        }
+    </script>
+</body>
+
+</html>
